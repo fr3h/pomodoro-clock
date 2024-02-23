@@ -30,11 +30,11 @@ const LengthControl = ({ timerAttribute }) => {
                 </div>
             </div>
             <div className='d-flex justify-content-evenly align-items-center'>
-                <FontAwesomeIcon id={`${timerAttribute}-decrement`} icon={faSquareCaretDown} size="2x" onClick={handleDecrementClick} className='lengthControlButton' />
-                <div id={`${timerAttribute}-length`} className='fs-2'>
+                <FontAwesomeIcon id={`${timerAttribute}-decrement`} icon={faSquareCaretDown} size="2x" onClick={handleDecrementClick} className='control-button' />
+                <div id={`${timerAttribute}-length`} className='fs-2 text-center'>
                     {length}
                 </div>
-                <FontAwesomeIcon id={`${timerAttribute}-increment`} icon={faSquareCaretUp} size="2x" onClick={handleIncrementClick} className='lengthControlButton' />
+                <FontAwesomeIcon id={`${timerAttribute}-increment`} icon={faSquareCaretUp} size="2x" onClick={handleIncrementClick} className='control-button' />
             </div>
         </div>
     );

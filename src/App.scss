@@ -10,3 +10,15 @@ h1 {
 .clock-container {
     width: 600px;
 }
+
+.control-button {
+    cursor: pointer;
+
+    &:hover {
+        color: #13353a;
+    }
+
+    &:active {
+        transform: translateY(2px);
+    }
+}

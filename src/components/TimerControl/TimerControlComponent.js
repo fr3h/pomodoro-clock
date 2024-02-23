@@ -20,8 +20,8 @@ const TimerControl = () => {
 
     return (
         <div id='timerControlContainer' className='d-flex justify-content-evenly'>
-            <FontAwesomeIcon id='start_stop' icon={isPlaying ? faPause : faPlay} size="3x" onClick={handleTogglePlayClick} className='timerControlButton' />
-            <FontAwesomeIcon id='reset' icon={faRotate} size="3x" onClick={handleResetTimerClick} className='timerControlButton' />
+            <FontAwesomeIcon id='start_stop' icon={isPlaying ? faPause : faPlay} size="3x" onClick={handleTogglePlayClick} className='control-button' />
+            <FontAwesomeIcon id='reset' icon={faRotate} size="3x" onClick={handleResetTimerClick} className='control-button' />
         </div>
     );
 };
